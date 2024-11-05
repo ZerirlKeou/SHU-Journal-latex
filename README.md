@@ -33,6 +33,8 @@
 
 如果你有任何问题或建议，请随时通过 GitHub Issues 或 Pull Requests 与我们联系。我们非常欢迎你的贡献和反馈！👨‍💻
 
+`Email` Zerirl_Keou@outlook.com
+
 ## 注意事项
 
 - 本模板仅供参考，使用时请根据实际需求进行调整。
