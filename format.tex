@@ -1,0 +1,37 @@
+% format.tex - 格式设置文件
+\newcommand{\chineseabstract}{
+    \noindent\zihao{-5}\songti\textbf{摘要：}\songti
+}
+
+\newcommand{\chinesekeywords}{
+    \noindent\zihao{-5}\songti\textbf{关键词：}
+}
+
+\newcommand{\englishabstract}{
+    \noindent\zihao{5}{\bfseries\fontspec{Times New Roman}[Weight=Bold]Abstract: }
+}
+
+\newcommand{\englishkeywords}{
+    \noindent\zihao{5}{\bfseries\fontspec{Times New Roman}[Weight=Bold]Key words: }
+}
+
+% 节标题格式
+\ctexset{section={format={\zihao{4}\heiti}}}
+\ctexset{subsection={format={\zihao{5}\heiti}}}
+\ctexset{subsubsection={format={\zihao{5}\songti}}}
+
+% 图表标题格式
+\DeclareCaptionFont{sfive}{\zihao{-5}}
+\captionsetup[figure]{font=sfive,justification=centering}
+\captionsetup[table]{font=sfive,justification=centering}
+
+% 修改后的方案
+\newcommand{\bottomnote}{
+    \vfill
+    \bottomnotefont
+    \bottomnotespacing
+    \noindent\rule{\linewidth}{0.4pt}\\
+    \noindent 收稿日期：20**-**-**\\
+    \noindent 基金项目：基金名称(编号)（六号字体）:国家自然科学基金资助项目(00000001);\\
+    \noindent 通信作者：李~三（1998——），男，教授，博士生导师，博士，研究方向为图像处理、数据挖掘等. E-mail: ****@shu.edu.cn (建议使用单位邮箱)
+}
